@@ -26,6 +26,8 @@ cp "$HERE/AidGraph-README.md" "$TARGET/README.md"
 cp "$HERE/AidGraph-LICENSE" "$TARGET/LICENSE"
 cp "$REPO/pipeline/.gitignore" "$TARGET/pipeline/.gitignore" 2>/dev/null || true
 rm -f "$TARGET/.export-list"
+# drop anything at the top level that is not part of the export (e.g. folders renamed since the last export)
+for d in "$TARGET"/* "$TARGET"/.[!.]*; do case "$(basename "$d")" in pipeline|revision|README.md|LICENSE|.git) ;; *) rm -rf "$d";; esac; done
 echo "exported $(find "$TARGET" -type f -not -path '*/.git/*' | wc -l) files to $TARGET"
 
 cd "$TARGET"

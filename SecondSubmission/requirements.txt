@@ -1,9 +1,0 @@
-# Python 3.15 was used; any Python >= 3.11 should work.
-pandas==3.0.6
-numpy==2.5.4
-scipy==1.18.0
-matplotlib==3.11.1
-pyarrow==23.0.1
-openpyxl==3.1.5
-tabulate==0.10.0
-powerlaw          # Clauset fits in 04_report.py, 05_compare.py, 13_wcc_and_funder_sizes.py (required by 04)
