@@ -1,0 +1,51 @@
+rank_z	ref	name	out_degree	usd	h	h_null_mu	z	rank_usd
+1	XM-DAC-3-1	Denmark - Ministry of Foreign Affairs, Danida	79	112467688488.90	368.67	151.23	3.43	5
+2	XM-DAC-7	Netherlands - Ministry of Foreign Affairs	65	73032938524.16	308.16	129.86	2.96	8
+3	GB-GOV-1	UK - Foreign, Commonwealth and Development Office	188	162694365249.31	439.73	318.26	2.05	4
+4	XM-DAC-2-10	Belgian Development Cooperation	18	6447561032.37	80.54	42.12	0.89	24
+5	CA-3	Canada - Global Affairs Canada | Affaires mondiales Canada	47	45948477360.59	139.61	100.11	0.68	12
+6	US-GOV-11	United States Department of State	53	213305063404.00	135.00	108.23	0.46	2
+7	XM-DAC-41122	United Nations Children's Fund (UNICEF)	5	5148276385.83	15.23	9.66	0.31	27
+8	NL-KVK-72849770	Stichting Beheer Subsidiegelden DRA	7	406205017.56	23.44	16.47	0.25	42
+9	XM-DAC-30010	UNITAID	6	3368456415.12	19.46	13.69	0.24	29
+10	XM-DAC-41302	International Labour Organization (ILO)	5	479623278.96	15.61	10.97	0.23	41
+11	SE-0	Sweden, through Swedish International Development Cooperation Agency (Sida)	70	99858480327.71	154.11	140.64	0.21	6
+12	XM-DAC-21-1	Ireland - Department of Foreign Affairs	99	8442532142.03	206.71	193.10	0.20	23
+13	XI-IATI-EC_ECHO	European Commission - Humanitarian Aid & Civil Protection	9	21095948201.97	25.88	21.59	0.14	19
+14	XM-OCHA-CBPF-AFG23	XM-OCHA-CBPF-AFG23	5	941324441.91	16.61	13.29	0.13	37
+15	XI-IATI-UNPF	UN Pooled Funds	7	17656502154.95	17.61	17.75	-0.00	21
+16	US-GOV-6	United States Department of the Treasury	6	30746306642.00	15.00	15.27	-0.01	15
+17	47045	The Global Fund to Fight AIDS, Tuberculosis and Malaria	8	72840844176.48	18.48	19.19	-0.02	9
+18	GB-CHC-229476	International Planned Parenthood Federation	8	284899457.89	18.08	19.50	-0.05	46
+19	NL-KVK-40594571	Simavi	6	104749903.04	11.83	13.08	-0.06	48
+20	XM-DAC-301-2	Canada - International Development Research Centre/Centre de recherches pour le développement international	11	1557719463.59	21.61	23.98	-0.08	32
+21	US-GOV-14	United States Health and Human Services	11	33417700263.00	22.98	27.19	-0.12	14
+22	NL-KVK-41179943	World Vision Netherlands	5	89291169.82	9.00	12.33	-0.15	49
+23	XM-DAC-5-7	Germany - Federal Foreign Office	12	16626979739.31	22.58	30.30	-0.21	22
+24	US-EIN-13-5660870	The International Rescue Committee	10	595463352.00	16.42	23.20	-0.22	40
+25	NL-KVK-27108436	Oxfam Novib	7	1160390872.44	10.50	16.48	-0.22	35
+26	XI-IATI-EC_NEAR	European Commission - Neighbourhood and Enlargement Negotiations	14	26766662880.44	24.61	32.90	-0.23	17
+27	GB-CHC-1062638	Disasters Emergency Committee	7	843151760.52	10.33	16.54	-0.23	38
+28	GB-COH-10333897	Pegasys Limited	5	39323660.43	6.00	10.18	-0.24	55
+29	XI-IATI-EC_INTPA	European Commission - International Partnerships	35	25012259521.42	59.91	72.29	-0.24	18
+30	GB-COH-03580586	PwC	13	699316472.52	21.25	29.33	-0.24	39
+31	GB-1	GB-1	10	44889869.78	16.00	23.81	-0.25	53
+32	DK-CVR-18243717	ActionAid Denmark (Mellemfolkeligt Samvirke)	5	56618903.65	5.00	11.44	-0.28	51
+33	NL-KVK-41198890	Plan International Netherlands	5	322283153.16	5.00	11.95	-0.29	45
+34	GB1	GB1	5	7142889.94	5.00	12.91	-0.29	58
+35	NL-KVK-27378529	Netherlands Enterprise Agency (RVO)	6	1371216812.25	6.50	13.40	-0.29	34
+36	DK-CVR-12006004	Center for Church-Based Development	5	21721902.19	5.00	11.60	-0.30	56
+37	NL-KVK-56484038	ICCO Cooperation	5	45942721.56	5.00	12.88	-0.31	52
+38	XI-IATI-EC_FPI	European Commission - Service for Foreign Policy Instruments	5	1541333891.88	5.00	14.18	-0.31	33
+39	US-GOV-1	United States Agency for International Development (USAID)	99	332452191391.00	156.85	176.08	-0.33	1
+40	US-GOV-18	Millennium Challenge Corporation	5	20014318252.00	5.00	13.43	-0.33	20
+41	XM-DAC-41317	Green Climate Fund	11	6098009579.67	13.50	24.32	-0.35	26
+42	GB-COH-05393391	Global Alliance for Livestock Veterinary Medicines	7	41944192.21	7.00	16.13	-0.35	54
+43	KE-RCO-201036685	UHAI EASHRI	8	5008899.35	8.00	18.51	-0.38	59
+44	US-EIN-941655673	The William and Flora Hewlett Foundation	39	1880718205.78	63.48	83.83	-0.38	31
+45	GB-COH-04105827	MannionDaniels	33	394227110.68	51.24	71.91	-0.40	43
+46	GB-CHC-207544	Sightsavers	10	252847707.41	11.00	23.75	-0.40	47
+47	XM-DAC-6-4	AICS - Agenzia Italiana per la Cooperazione allo Sviluppo / Italian Agency for Cooperation and Development	25	6356364639.85	35.61	54.66	-0.42	25
+48	XM-DAC-TSF	XM-DAC-TSF	12	3348827657.56	12.00	26.47	-0.44	30
+49	GB-COH-2394229	Palladium International Ltd (UK)	13	68607212.92	13.00	30.42	-0.47	50
+50	DAC-1601	Gates Foundation	35	26785718082.08	51.44	78.27	-0.50	16

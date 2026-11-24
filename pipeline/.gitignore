@@ -1,0 +1,12 @@
+Data
+graph/
+report.md
+report.pdf
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+comparison_data/
+hum_rows.parquet

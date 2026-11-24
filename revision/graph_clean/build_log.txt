@@ -1,0 +1,12 @@
+total rows: 10,890,453
+disbursement rows after dedup and secondary-reporter removal: 3,643,369
+category-like codes kept because an organisation publishes under them: ['44000', 'XM-DAC-43000']
+rows whose receiver ref is a generic category code or placeholder string: 218,789 (provider: 0); distinct such receiver refs: 43
+receiver names newly blacklisted as category labels: 75,066 rows, e.g. {'enterprise - non united states other': 34851, 'correction': 22012, 'international ngo': 5404, 'enterprise - united states other': 2636, 'ngo - non united states other': 2607, 'national ngo': 2228, 'developing country-based ngo': 1549, 'university college research other': 1231}
+name->ref dictionary entries: 12,674 (published build: 13,875)
+ref-less receivers resolved by name dictionary: 275,378 rows (published build: 269,090)
+distinct (name, ref) pairs used: 2,316; resolving onto generic codes: 2
+rows with both endpoints: 1,118,457 (published: 1,330,963)
+self-loop rows dropped: 279,898; rows used for arcs: 838,559 (published: 1,051,065)
+total net disbursement value: 1,017.82 B USD (published: 1,030.38)
+n = 22,771 nodes (published 22,773); m = 28,825 arcs (published 28,708)

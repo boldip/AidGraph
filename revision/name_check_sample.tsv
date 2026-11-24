@@ -1,0 +1,129 @@
+stratum	raw_example	name	ref	registry_title_of_ref	source	cooc_support_rows	cooc_dominance	rows	reporters	reporter_example	ref_also_reporter_of_row	verdict (correct / wrong / unsure)
+random 100	United Nations Economic Commission for Africa	united nations economic commission for africa	XM-DAC-41305		co-occurrence	3	1.0	16	2	XI-IATI-UNPF	False	
+random 100	Lalitpur District Milk Producer Cooperative Union Ltd.	lalitpur district milk producer cooperative union ltd.	LDMPCUL		co-occurrence	3	1.0	3	1	NL-KVK-41048542	False	
+random 100	University of Strathclyde	university of strathclyde	GB-SC-SC015263	University of Strathclyde	co-occurrence	11	1.0	4	1	GB-HESA-10004113	False	
+random 100	German Marshall Fund of the United States	german marshall fund of the united states	US-EIN-520954751		co-occurrence	11	1.0	5	2	US-GOV-1	False	
+random 100	NISMA PER NDRYSHIM SHOQEROR ARSIS	nisma per ndryshim shoqeror arsis	XM-DAC-41122-VN-241273		co-occurrence	4	1.0	1	1	XM-DAC-41122	False	
+random 100	Centre International de Développement et de Recherche	centre international de développement et de recherche	FR-RCS-78049888700022	Centre International de Développement et de Recherche	publisher title	0		9	1	NL-KVK-41152786	False	
+random 100	Royal Society for the protection of Birds	royal society for the protection of birds	22000		co-occurrence	28	0.9655172413793104	1	1	GB-CHC-285776	False	
+random 100	Government of Germany	government of germany	XM-DAC-5-7	Germany - Federal Foreign Office	co-occurrence	3	1.0	23	1	US-GOV-1	False	
+random 100	International Water Management Institute	international water management institute	XM-DAC-47075		co-occurrence	13	1.0	221	6	US-GOV-1	False	
+random 100	HEALTH OFFICE AL JAWF	health office al jawf	XM-DAC-41122-VN-234195		co-occurrence	5	1.0	1	1	XM-DAC-41122	False	
+random 100	Kadaster International	kadaster international	NL-KVK-08215619-201210000	Kadaster International	publisher title	0		2	1	NL-KVK-27108436	False	
+random 100	International Fertilizer Development Center	international fertilizer development center	US-EIN-63-0676451	International Fertilizer Development Center	co-occurrence	6	0.46153846153846156	392	1	US-GOV-1	False	
+random 100	Center for Civilians in Conflict	center for civilians in conflict	US-EIN-75-3130860	Center for Civilians in Conflict	co-occurrence	13	1.0	20	2	XM-DAC-7	False	
+random 100	Springfield	springfield	SPRINGFIELD		co-occurrence	6	1.0	2	1	GB-COH-2394229	False	
+random 100	Leonard Cheshire Disability	leonard cheshire disability	GB-CHC-218186	Leonard Cheshire Disability	co-occurrence	31	0.5081967213114754	6	1	US-GOV-1	False	
+random 100	Charles River Laboratories	charles river laboratories	XI-GRID-GRID.280920.1		co-occurrence	4	1.0	3	1	GB-COH-05393391	False	
+random 100	Chadiza District Farmer Association	chadiza district farmer association	CDFA		co-occurrence	6	1.0	3	1	NL-KVK-41048542	False	
+random 100	Organisation for Economic Co-operation and Development (OECD)	organisation for economic co-operation and development (oecd)	XM-DAC-47080	OECD	co-occurrence	137	1.0	11	1	DAC-1601	False	
+random 100	Cooperativa Agraria ALLIMA CACAO Ltda.	cooperativa agraria allima cacao ltda.	ALLIMA CACAO		co-occurrence	8	1.0	3	1	NL-KVK-41048542	False	
+random 100	Yamaan Foundation for Health and Social Development	yamaan foundation for health and social development	YE-MSAL-80/295	Yamaan Foundation for Health and Social Development	publisher title	0		20	1	NL-KVK-41160054	False	
+random 100	Bangladesh Water Development Board	bangladesh water development board	BD-COA-7681		co-occurrence	24	1.0	196	1	XM-DAC-46004	False	
+random 100	FOREST PEOPLES PROGRAMME	forest peoples programme	XM-DAC-21000		co-occurrence	5	1.0	23	4	XM-DAC-41302	False	
+random 100	Thai Lawyers for Human Rights	thai lawyers for human rights	227937		co-occurrence	4	1.0	1	1	XM-DAC-7	False	
+random 100	GENDER LINKS	gender links	ZA-NPO-036-515	Gender Links	co-occurrence	4	0.36363636363636365	21	4	NL-KVK-06702132	False	
+random 100	CIPFA	cipfa	22000		co-occurrence	17	1.0	1	1	GB-COH-1858644	False	
+random 100	Action Against Hunger Spain	action against hunger spain	ES-CIF-G81164105	ACTION AGAINST HUNGER SPAIN	co-occurrence	13	0.7222222222222222	6	1	GB-CHC-1047501	False	
+random 100	U.S. Government - Department of Defense	u.s. government - department of defense	US-GOV-7	United States Department of Defense	co-occurrence	15763	1.0	147	1	US-GOV-1	False	
+random 100	Municipal Development Fund of Georgia	municipal development fund of georgia	GE-COA-9033		co-occurrence	25	1.0	149	1	XM-DAC-46004	False	
+random 100	CONFLICT DYNAMICS INTERNATIONAL	conflict dynamics international	20000		co-occurrence	19	1.0	6	1	XM-DAC-7	False	
+random 100	International Business Leaders Forum	international business leaders forum	20000		co-occurrence	3	1.0	16	2	US-GOV-1	False	
+random 100	INTEGRATED HUMANITARIAN AID	integrated humanitarian aid	XM-DAC-41122-VN-245233		co-occurrence	6	1.0	1	1	XM-OCHA-CBPF	False	
+random 100	International Commission of Jurists	international commission of jurists	21000		co-occurrence	3	1.0	27	3	NL-KVK-41160054	False	
+random 100	Myanmar Trust UK	myanmar trust uk	GB-CHC-1180966	Myanmar Trust UK	publisher title	0		1	1	XM-DAC-301-2	False	
+random 100	INTERNATIONAL FINANCIAL REPORTING STANDARDS FOUNDATION	international financial reporting standards foundation	US-EIN-13-4164140	International Financial Reporting Standards Foundation	publisher title	0		3	1	GB-GOV-1	False	
+random 100	One Acre Fund	one acre fund	US-DOS-64562614	One Acre Fund	publisher title	1	1.0	62	4	US-GOV-1	False	
+random 100	adelphi research gGmbH	adelphi research ggmbh	ADELPHI RESEARCH GGMBH		co-occurrence	3	1.0	16	2	GB-GOV-1	False	
+random 100	European Institute of Peace	european institute of peace	BE-BCE_KBO-0550758080	European Institute of Peace	co-occurrence	6	1.0	9	3	XM-DAC-5-7	False	
+random 100	Fundação MASC	fundação masc	FUNDAÇÃO MASC		co-occurrence	4	1.0	4	1	GB-GOV-1	False	
+random 100	International Foundation for Electoral Systems	international foundation for electoral systems	US-EIN-52-1527835	International Foundation for Electoral Systems	co-occurrence	32	0.6274509803921569	435	2	US-GOV-1	False	
+random 100	OECD	oecd	XM-DAC-47080	OECD	publisher title	0		99	5	XM-DAC-69-1	False	
+random 100	University of Zambia	university of zambia	XM-DAC-41122-VN-247465		co-occurrence	4	1.0	32	4	US-GOV-14	False	
+random 100	Transparency International Kenya	transparency international kenya	KE-RCO-84486	Transparency International Kenya	publisher title	0		3	1	GB-GOV-1	False	
+random 100	Civicus	civicus	21000		co-occurrence	78	1.0	12	2	XM-DAC-7	False	
+random 100	Shree Dumarwana Milk Producer Cooperative Limited	shree dumarwana milk producer cooperative limited	SDMPCL		co-occurrence	5	1.0	2	1	NL-KVK-41048542	False	
+random 100	Joshua Orphan and Community Care	joshua orphan and community care	GB-CHC-1114727	Joshua Orphan and Community Care	co-occurrence	16	1.0	1	1	GB-CHC-1114727	True	
+random 100	GURT Resource Center	gurt resource center	XM-DAC-23000		co-occurrence	7	1.0	2	1	XM-DAC-5-7	False	
+random 100	Health and Development Support (HANDS) Programme	health and development support (hands) programme	CAC-716811		co-occurrence	14	1.0	45	1	GB-CHC-207544	False	
+random 100	Progressio	progressio	22000		co-occurrence	5	1.0	18	1	GB-CHC-285776	False	
+random 100	Observer Research Foundation	observer research foundation	23000		co-occurrence	48	0.9056603773584906	7	1	DAC-1601	False	
+random 100	IRC Inc	irc inc	US-EIN-13-5660870	The International Rescue Committee	co-occurrence	32	1.0	8	2	US-EIN-13-5660870	True	
+random 100	World Food Programme (WFP)	world food programme (wfp)	XM-DAC-41140	United Nations World Food Programme (WFP)	co-occurrence	878	1.0	163	3	XM-DAC-5-7	False	
+random 100	International NGO Safety Organisation	international ngo safety organisation	20000		co-occurrence	32	0.9411764705882353	363	4	XM-DAC-5-7	False	
+random 100	BERYTECH FOUNDATION	berytech foundation	XM-DAC-41122-VN-239815		co-occurrence	4	1.0	17	1	XM-DAC-7	False	
+random 100	Brigham and Women's Hospital	brigham and women's hospital	US-EIN-042312909	Brigham and Women's Hospital	co-occurrence	26	1.0	65	2	US-GOV-1	False	
+random 100	MINISTERIE VAN NATUURLIJKE HULPBRONNEN	ministerie van natuurlijke hulpbronnen	XM-DAC-41122-VN-223375		co-occurrence	8	1.0	18	1	XM-DAC-7	False	
+random 100	STICHTING LILIANE FONDS	stichting liliane fonds	NL-KVK-41081480	Stichting Liliane Fonds	publisher title	0		6	1	XM-DAC-7	False	
+random 100	PSI	psi	21032		co-occurrence	8	1.0	162	1	XM-DAC-7	False	
+random 100	Asociación Nacional de Productores de Quinua	asociación nacional de productores de quinua	ANAPQUI		co-occurrence	17	1.0	2	1	NL-KVK-41048542	False	
+random 100	MINISTRY OF INFRASTRUCTURE DEVELOPMENT	ministry of infrastructure development	SB-COA-277		co-occurrence	64	1.0	6	1	XI-IATI-IADB	False	
+random 100	Fondation Hirondelle	fondation hirondelle	CH-FDJP-CHE109947366	Fondation Hirondelle	co-occurrence	15	0.6	16	2	XM-DAC-7	False	
+random 100	University of Edinburgh	university of edinburgh	GB-UKPRN-10007790	University of Edinburgh	co-occurrence	126	0.8811188811188811	20	2	GB-CHC-314137	False	
+random 100	Ministry of Environment and Sustainable Development (MAyDS)	ministry of environment and sustainable development (mayds)	AR-COA-11129		co-occurrence	25	1.0	3	1	XI-BRIDGE-6385676864	False	
+random 100	ESKOM	eskom	ZA-COA-3109		co-occurrence	42	1.0	1	1	XI-BRIDGE-6385676864	False	
+random 100	National Institute of Mental Health and Neuro Sciences	national institute of mental health and neuro sciences	XM-DAC-41122-VN-239111		co-occurrence	9	1.0	1	1	DAC-1601	False	
+random 100	Tear	tear	NL-KVK-41177385	TEAR fund Nederland	co-occurrence	13	1.0	3	1	NL-KVK-41198890	False	
+random 100	PricewaterhouseCoopers International Limited	pricewaterhousecoopers international limited	GB-COH-03580586	PwC	co-occurrence	6	1.0	414	1	US-GOV-1	False	
+random 100	United Nations	united nations	XM-DAC-41305		co-occurrence	658	0.9719350073855244	510	6	XM-DAC-5-7	False	
+random 100	Crown Agents Limited	crown agents limited	GB-COH-03259922	Crown Agents Limited	co-occurrence	11789	0.9997455902306649	26	3	DAC-1601	False	
+random 100	Stichting Reformatorische Hulpaktie Woord en Daad	stichting reformatorische hulpaktie woord en daad	NL-KVK-41118168	Stichting Woord en Daad	co-occurrence	4	1.0	53	1	NL-KVK-27378529	False	
+random 100	Plan International Inc. (Zimbabwe Country Office)	plan international inc. (zimbabwe country office)	NO IDENTIFIER		co-occurrence	52	1.0	2	1	GB-COH-1364201	False	
+random 100	Asociación de Organizaciones de Productores Ecológicos de Bolivia	asociación de organizaciones de productores ecológicos de bolivia	AOPEB		co-occurrence	8	1.0	8	2	BE-BCE_KBO-0432503697	False	
+random 100	Puntland Water Development Agency	puntland water development agency	XM-DAC-41122-VN-241129		co-occurrence	10	1.0	1	1	US-EIN-13-5660870	False	
+random 100	European Bank for Reconstruction and Development	european bank for reconstruction and development	XI-IATI-EBRD	European Bank for Reconstruction and Development	co-occurrence	96	0.8727272727272727	22	3	US-GOV-1	False	
+random 100	Multilateral Investment Fund	multilateral investment fund	1013599		co-occurrence	3	1.0	2	1	XI-BRIDGE-6385676864	False	
+random 100	NGO Forum for Public Health	ngo forum for public health	XM-DAC-41122-VN-235309		co-occurrence	3	1.0	1	1	GB-COH-00070527	False	
+random 100	PACT Institute	pact institute	XM-DAC-21000		co-occurrence	8	1.0	10	1	XM-DAC-7	False	
+random 100	LVCT Health	lvct health	KE-NCB-218051200201502367	LVCT Health	co-occurrence	9	0.9	5	3	GB-CHC-1038860	False	
+random 100	Mount Rwenzori Coffee Farmers Cooperative Union	mount rwenzori coffee farmers cooperative union	MRCFCU		co-occurrence	7	1.0	4	1	NL-KVK-41048542	False	
+random 100	Vietnam National Farmers Union	vietnam national farmers union	VNFU		co-occurrence	13	1.0	6	1	NL-KVK-41048542	False	
+random 100	Dien Phuoc Agri-Cooperative	dien phuoc agri-cooperative	DPC		co-occurrence	5	1.0	1	1	NL-KVK-41048542	False	
+random 100	Swedish Civil Defence and Resilience Agency	swedish civil defence and resilience agency	SE-ON-202100-5984	Swedish Civil Defence and Resilience Agency	publisher title	0		2	1	XI-IATI-EC_ECHO	False	
+random 100	MannionDaniels	manniondaniels	GB-COH-04105827	MannionDaniels	co-occurrence	1200	0.9966777408637874	2	1	GB-COH-2394229	False	
+random 100	Global Fund to Fight AIDS, Tuberculosis and Malaria, The	global fund to fight aids, tuberculosis and malaria, the	XM-DAC-47045		co-occurrence	8	1.0	1	1	GB-GOV-1	False	
+random 100	Institute of Tropical Medicine	institute of tropical medicine	BE-BCE_KBO-0410057701	Institute of Tropical Medicine	publisher title	0		12	1	DAC-1601	False	
+random 100	Women's Refugee Commission	women's refugee commission	US-EIN-463668128	Women's Refugee Commission	co-occurrence	130	1.0	2	1	DAC-1601	False	
+random 100	ISEAL	iseal	GB-COH-4625800	ISEAL	publisher title	0		3	1	NL-KVK-34159275	False	
+random 100	Wamo Relief and Rehabilitation Services	wamo relief and rehabilitation services	XM-DAC-41122-VN-213665		co-occurrence	7	1.0	32	1	XM-OCHA-CBPF	False	
+random 100	Rukiga Savings and Credit Scheme Cooperative Society Ltd.	rukiga savings and credit scheme cooperative society ltd.	RUKIGA SACCO		co-occurrence	5	1.0	3	1	NL-KVK-41048542	False	
+random 100	Avocats sans Frontières	avocats sans frontières	BE-BCE_KBO-0447404580	Avocats Sans Frontières	co-occurrence	8	0.6666666666666666	2	1	XM-DAC-5-7	False	
+random 100	Academy for Educational Development	academy for educational development	US-EIN-136110212		co-occurrence	5	1.0	161	1	US-GOV-1	False	
+random 100	Sungi Development Foundation (SDF)	sungi development foundation (sdf)	NOT REGISTERED		co-occurrence	5	1.0	11	1	GB-CHC-209131	False	
+random 100	WWF Indonesia	wwf indonesia	ID-DJP-018321174017000	WWF Indonesia	co-occurrence	3	0.75	2	1	NL-KVK-27108436	False	
+random 100	Department of Works and Highways	department of works and highways	PG-COA-36910		co-occurrence	12	1.0	465	1	XM-DAC-46004	False	
+random 100	International Union for the Conservation of Nature	international union for the conservation of nature	XM-DAC-30011	International Union for Conservation of Nature and Natural Resources	co-occurrence	282	1.0	393	1	US-GOV-1	False	
+random 100	Centre for Policy Alternatives	centre for policy alternatives	126799		co-occurrence	3	1.0	18	1	XM-DAC-7	False	
+random 100	New Venture Fund	new venture fund	US-EIN-205806345		co-occurrence	7	1.0	49	4	US-EIN-82-3941326	False	
+random 100	Curatio International Foundation	curatio international foundation	GE-NAPR-367	Curatio International Foundation	co-occurrence	5	1.0	3	1	XM-DAC-301-2	False	
+random 100	Oxford Policy Management	oxford policy management	GB-COH-3122495		co-occurrence	4057	0.9982775590551181	65	6	GB-CHC-285776	False	
+top 30 by rows	U.S. Government - U.S. Agency for International Development	u.s. government - u.s. agency for international development	US-GOV-1	United States Agency for International Development (USAID)	co-occurrence	163	1.0	19323	1	US-GOV-1	True	
+top 30 by rows	Chemonics International, Inc.	chemonics international, inc.	US-EIN-52-2145827	Chemonics International Inc.	co-occurrence	61	1.0	11457	2	US-GOV-1	False	
+top 30 by rows	FHI 360	fhi 360	US-EIN-237413005	FHI360	co-occurrence	995	1.0	11244	2	GB-CHC-207544	False	
+top 30 by rows	Correction	correction	NOT AVAILABLE		co-occurrence	7805	1.0	8611	1	GB-GOV-1	False	
+top 30 by rows	United Nations Children's Fund	united nations children's fund	XM-DAC-41122	United Nations Children's Fund (UNICEF)	co-occurrence	3685	0.9978337395071757	8484	3	US-GOV-1	False	
+top 30 by rows	World Food Program	world food program	XM-DAC-41140	United Nations World Food Programme (WFP)	co-occurrence	1822	1.0	7841	2	US-GOV-1	False	
+top 30 by rows	Abt Associates, Inc.	abt associates, inc.	US-EIN-042347643	Abt Associates Inc	co-occurrence	79	1.0	7290	1	US-GOV-1	False	
+top 30 by rows	Save the Children Federation, Inc.	save the children federation, inc.	GB-CHC-1076822	Save the Children International	co-occurrence	2376	1.0	7125	3	47045	False	
+top 30 by rows	International Organisation for Migration	international organisation for migration	XM-DAC-47066	International Organization for Migration (IOM)	co-occurrence	2650	0.9962406015037594	6280	3	XM-DAC-5-7	False	
+top 30 by rows	Catholic Relief Services	catholic relief services	US-EIN-13-5563422	Catholic Relief Services	co-occurrence	3761	0.9817280083529105	5844	6	US-GOV-1	False	
+top 30 by rows	U.S. Government - Department of Agriculture	u.s. government - department of agriculture	US-GOV-2	United States Department of Agriculture	co-occurrence	766	1.0	4226	1	US-GOV-1	False	
+top 30 by rows	Mercy Corps	mercy corps	US-EIN-91-1148123	Mercy Corps Global	co-occurrence	1186	0.9587712206952304	4087	11	GB-COH-03259922	False	
+top 30 by rows	World Vision	world vision	US-IRS-95-3202116		co-occurrence	1249	0.9018050541516246	3830	8	XM-DAC-5-7	False	
+top 30 by rows	United Nations Development Programme	united nations development programme	XM-DAC-41114	United Nations Development Programme (UNDP)	co-occurrence	4600	0.9943795936013835	3251	10	XM-DAC-5-7	False	
+top 30 by rows	Johns Hopkins University	johns hopkins university	US-EIN-52-0595110	Johns Hopkins University	co-occurrence	1133	0.8999205718824463	3121	2	US-GOV-1	False	
+top 30 by rows	U.S. Government - Department of State	u.s. government - department of state	US-GOV-11	United States Department of State	co-occurrence	16231	1.0	3083	1	US-GOV-1	False	
+top 30 by rows	INTERNATIONAL NGO	international ngo	XM-DAC-21000		co-occurrence	1871	0.987335092348285	2938	4	XM-DAC-5-7	False	
+top 30 by rows	Cooperative for Assistance and Relief Everywhere	cooperative for assistance and relief everywhere	XM-DAC-41122-VN-218052		co-occurrence	3	1.0	2885	1	US-GOV-1	False	
+top 30 by rows	Enterprise - Non United States Other	enterprise - non united states other	XM-DAC-63000		co-occurrence	29871	1.0	2500	1	US-GOV-1	False	
+top 30 by rows	International Rescue Committee	international rescue committee	US-EIN-13-5660870	The International Rescue Committee	co-occurrence	3313	0.9611256164780969	2389	7	XM-DAC-5-7	False	
+top 30 by rows	IntraHealth International	intrahealth international	US-EIN-550825466	IntraHealth International	co-occurrence	82	1.0	2232	1	US-GOV-1	False	
+top 30 by rows	Pact World	pact world	US-EIN-13-2702768	Pact	co-occurrence	210	1.0	2167	1	US-GOV-1	False	
+top 30 by rows	ICF International	icf international	GB-COH-04161656	ICF Consulting Services Ltd	co-occurrence	36	1.0	1953	1	US-GOV-1	False	
+top 30 by rows	Food and Agriculture Organisation	food and agriculture organisation	XM-DAC-41301	Food and Agriculture Organization of the United Nations (FAO)	co-occurrence	32	1.0	1946	1	US-GOV-1	False	
+top 30 by rows	Global Communities	global communities	XM-DAC-21000		co-occurrence	5	1.0	1823	6	US-GOV-1	False	
+top 30 by rows	International Medical Corps	international medical corps	GB-COH-02651349	DT Global UK	co-occurrence	1869	0.9941489361702127	1766	3	US-GOV-1	False	
+top 30 by rows	PATH	path	US-EIN-91-1157127	PATH	co-occurrence	752	0.454380664652568	1731	4	US-GOV-1	False	
+top 30 by rows	Pathfinder International	pathfinder international	US-EIN-53-0235320	Pathfinder International	co-occurrence	23	0.5476190476190477	1717	6	US-GOV-1	False	
+top 30 by rows	NETHERLANDS SPACE OFFICE	netherlands space office	XI-IATI-NSO	Netherlands Space Office	publisher title	0		1568	1	XM-DAC-7	False	
+top 30 by rows	International Organization for Migration	international organization for migration	XM-DAC-47066	International Organization for Migration (IOM)	co-occurrence	608	0.9983579638752053	1501	5	XM-OCHA-CBPF	False	

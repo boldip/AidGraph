@@ -8,13 +8,13 @@ by the scripts in this repository from the IATI transaction extract described be
 
 ## Layout
 
-* `SecondSubmission/`: the main pipeline, numbered in run order (`02_build_graph.py` ...
+* `pipeline/`: the main chain, numbered in run order (`02_build_graph.py` ...
   `19_h3_tables.py`), with `README.md` (run order, inputs, runtimes), `Makefile`
   (`make all`; `make all N=24` for a smoke test), `requirements.txt`, the hand-curated
   `ref_names.tsv`, the comparison edge lists under `comparison/`, and the derived outputs
   (rankings, invariants, figures, table bodies). `DATA_EXTRACTION.md` documents the IATI
   Datastore query that produced the transaction extract.
-* `Revision-SecondSubmission/`: the analyses added in the second round of revision
+* `revision/`: the analyses added in the second round of revision
   (`r1` GlobalGiving-free rerun, `r2` backbones, `r3`-`r8` name audit, `r9` clean rebuild,
   `r4`, `r11`, `r12` paper figures and tables, `common.py`), their results (`*_results.md`,
   `*.tsv`, `*.png`), the submitted graph (`graph_v2/`) and the rebuilt one (`graph_clean/`),
@@ -23,11 +23,11 @@ by the scripts in this repository from the IATI transaction extract described be
 
 ## Data
 
-The IATI extract (`SecondSubmission/Data`, a 765 MB parquet file, 10,890,453 rows) is not
+The IATI extract (`pipeline/Data`, a 765 MB parquet file, 10,890,453 rows) is not
 in the repository; it is deposited on Zenodo together with this code (DOI to be inserted).
 The comparison datasets (BIS, Correlates of War, OpenFlights, UNHCR, KNOMAD) are public;
 sources and snapshots are listed in Extended Data Table 1 of the paper and in
-`SecondSubmission/README.md`.
+`pipeline/README.md`.
 
 ## Environment
 

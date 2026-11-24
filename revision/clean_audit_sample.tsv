@@ -1,0 +1,129 @@
+stratum	raw_example	name	ref	rows	verdict	still_resolved	new_target
+random 100	United Nations Economic Commission for Africa	united nations economic commission for africa	XM-DAC-41305	16	wrong	True	XM-DAC-41305
+random 100	Lalitpur District Milk Producer Cooperative Union Ltd.	lalitpur district milk producer cooperative union ltd.	LDMPCUL	3	correct	True	LDMPCUL
+random 100	University of Strathclyde	university of strathclyde	GB-SC-SC015263	4	correct	True	GB-SC-SC015263
+random 100	German Marshall Fund of the United States	german marshall fund of the united states	US-EIN-520954751	5	correct	True	US-EIN-520954751
+random 100	NISMA PER NDRYSHIM SHOQEROR ARSIS	nisma per ndryshim shoqeror arsis	XM-DAC-41122-VN-241273	1	correct	True	XM-DAC-41122-VN-241273
+random 100	Centre International de Développement et de Recherche	centre international de développement et de recherche	FR-RCS-78049888700022	9	correct	True	FR-RCS-78049888700022
+random 100	Royal Society for the protection of Birds	royal society for the protection of birds	22000	1	wrong	False	GB-CHC-207076
+random 100	Government of Germany	government of germany	XM-DAC-5-7	23	correct	True	XM-DAC-5-7
+random 100	International Water Management Institute	international water management institute	XM-DAC-47075	221	correct	True	XM-DAC-47075
+random 100	HEALTH OFFICE AL JAWF	health office al jawf	XM-DAC-41122-VN-234195	1	correct	True	XM-DAC-41122-VN-234195
+random 100	Kadaster International	kadaster international	NL-KVK-08215619-201210000	2	correct	True	NL-KVK-08215619-201210000
+random 100	International Fertilizer Development Center	international fertilizer development center	US-EIN-63-0676451	392	correct	True	US-EIN-63-0676451
+random 100	Center for Civilians in Conflict	center for civilians in conflict	US-EIN-75-3130860	20	correct	True	US-EIN-75-3130860
+random 100	Springfield	springfield	SPRINGFIELD	2	correct	True	SPRINGFIELD
+random 100	Leonard Cheshire Disability	leonard cheshire disability	GB-CHC-218186	6	correct	True	GB-CHC-218186
+random 100	Charles River Laboratories	charles river laboratories	XI-GRID-GRID.280920.1	3	correct	True	XI-GRID-GRID.280920.1
+random 100	Chadiza District Farmer Association	chadiza district farmer association	CDFA	3	correct	True	CDFA
+random 100	Organisation for Economic Co-operation and Development (OECD)	organisation for economic co-operation and development (oecd)	XM-DAC-47080	11	correct	True	XM-DAC-47080
+random 100	Cooperativa Agraria ALLIMA CACAO Ltda.	cooperativa agraria allima cacao ltda.	ALLIMA CACAO	3	correct	True	ALLIMA CACAO
+random 100	Yamaan Foundation for Health and Social Development	yamaan foundation for health and social development	YE-MSAL-80/295	20	correct	True	YE-MSAL-80/295
+random 100	Bangladesh Water Development Board	bangladesh water development board	BD-COA-7681	196	unsure	True	BD-COA-7681
+random 100	FOREST PEOPLES PROGRAMME	forest peoples programme	XM-DAC-21000	23	unsure	False	
+random 100	Thai Lawyers for Human Rights	thai lawyers for human rights	227937	1	correct	True	227937
+random 100	GENDER LINKS	gender links	ZA-NPO-036-515	21	correct	False	ZA-CIPC-2001-005850-08
+random 100	CIPFA	cipfa	22000	1	wrong	False	
+random 100	Action Against Hunger Spain	action against hunger spain	ES-CIF-G81164105	6	correct	True	ES-CIF-G81164105
+random 100	U.S. Government - Department of Defense	u.s. government - department of defense	US-GOV-7	147	correct	True	US-GOV-7
+random 100	Municipal Development Fund of Georgia	municipal development fund of georgia	GE-COA-9033	149	correct	True	GE-COA-9033
+random 100	CONFLICT DYNAMICS INTERNATIONAL	conflict dynamics international	20000	6	wrong	False	US-EIN-56-2460366
+random 100	International Business Leaders Forum	international business leaders forum	20000	16	wrong	False	
+random 100	INTEGRATED HUMANITARIAN AID	integrated humanitarian aid	XM-DAC-41122-VN-245233	1	correct	True	XM-DAC-41122-VN-245233
+random 100	International Commission of Jurists	international commission of jurists	21000	27	wrong	False	
+random 100	Myanmar Trust UK	myanmar trust uk	GB-CHC-1180966	1	correct	True	GB-CHC-1180966
+random 100	INTERNATIONAL FINANCIAL REPORTING STANDARDS FOUNDATION	international financial reporting standards foundation	US-EIN-13-4164140	3	correct	True	US-EIN-13-4164140
+random 100	One Acre Fund	one acre fund	US-DOS-64562614	62	correct	True	US-DOS-64562614
+random 100	adelphi research gGmbH	adelphi research ggmbh	ADELPHI RESEARCH GGMBH	16	correct	True	ADELPHI RESEARCH GGMBH
+random 100	European Institute of Peace	european institute of peace	BE-BCE_KBO-0550758080	9	correct	True	BE-BCE_KBO-0550758080
+random 100	Fundação MASC	fundação masc	FUNDAÇÃO MASC	4	correct	True	FUNDAÇÃO MASC
+random 100	International Foundation for Electoral Systems	international foundation for electoral systems	US-EIN-52-1527835	435	correct	True	US-EIN-52-1527835
+random 100	OECD	oecd	XM-DAC-47080	99	correct	True	XM-DAC-47080
+random 100	University of Zambia	university of zambia	XM-DAC-41122-VN-247465	32	correct	True	XM-DAC-41122-VN-247465
+random 100	Transparency International Kenya	transparency international kenya	KE-RCO-84486	3	correct	True	KE-RCO-84486
+random 100	Civicus	civicus	21000	12	wrong	False	
+random 100	Shree Dumarwana Milk Producer Cooperative Limited	shree dumarwana milk producer cooperative limited	SDMPCL	2	correct	True	SDMPCL
+random 100	Joshua Orphan and Community Care	joshua orphan and community care	GB-CHC-1114727	1	correct	True	GB-CHC-1114727
+random 100	GURT Resource Center	gurt resource center	XM-DAC-23000	2	wrong	False	
+random 100	Health and Development Support (HANDS) Programme	health and development support (hands) programme	CAC-716811	45	unsure	True	CAC-716811
+random 100	Progressio	progressio	22000	18	wrong	False	
+random 100	Observer Research Foundation	observer research foundation	23000	7	wrong	False	XI-GRID-GRID.473680.E
+random 100	IRC Inc	irc inc	US-EIN-13-5660870	8	correct	True	US-EIN-13-5660870
+random 100	World Food Programme (WFP)	world food programme (wfp)	XM-DAC-41140	163	correct	True	XM-DAC-41140
+random 100	International NGO Safety Organisation	international ngo safety organisation	20000	363	wrong	False	NL-KVK-73728489
+random 100	BERYTECH FOUNDATION	berytech foundation	XM-DAC-41122-VN-239815	17	correct	True	XM-DAC-41122-VN-239815
+random 100	Brigham and Women's Hospital	brigham and women's hospital	US-EIN-042312909	65	correct	True	US-EIN-042312909
+random 100	MINISTERIE VAN NATUURLIJKE HULPBRONNEN	ministerie van natuurlijke hulpbronnen	XM-DAC-41122-VN-223375	18	correct	True	XM-DAC-41122-VN-223375
+random 100	STICHTING LILIANE FONDS	stichting liliane fonds	NL-KVK-41081480	6	correct	True	NL-KVK-41081480
+random 100	PSI	psi	21032	162	correct	True	21032
+random 100	Asociación Nacional de Productores de Quinua	asociación nacional de productores de quinua	ANAPQUI	2	correct	True	ANAPQUI
+random 100	MINISTRY OF INFRASTRUCTURE DEVELOPMENT	ministry of infrastructure development	SB-COA-277	6	unsure	True	SB-COA-277
+random 100	Fondation Hirondelle	fondation hirondelle	CH-FDJP-CHE109947366	16	correct	True	CH-FDJP-CHE109947366
+random 100	University of Edinburgh	university of edinburgh	GB-UKPRN-10007790	20	correct	True	GB-UKPRN-10007790
+random 100	Ministry of Environment and Sustainable Development (MAyDS)	ministry of environment and sustainable development (mayds)	AR-COA-11129	3	unsure	True	AR-COA-11129
+random 100	ESKOM	eskom	ZA-COA-3109	1	unsure	True	ZA-COA-3109
+random 100	National Institute of Mental Health and Neuro Sciences	national institute of mental health and neuro sciences	XM-DAC-41122-VN-239111	1	correct	True	XM-DAC-41122-VN-239111
+random 100	Tear	tear	NL-KVK-41177385	3	correct	True	NL-KVK-41177385
+random 100	PricewaterhouseCoopers International Limited	pricewaterhousecoopers international limited	GB-COH-03580586	414	correct	True	GB-COH-03580586
+random 100	United Nations	united nations	XM-DAC-41305	510	correct	True	XM-DAC-41305
+random 100	Crown Agents Limited	crown agents limited	GB-COH-03259922	26	correct	True	GB-COH-03259922
+random 100	Stichting Reformatorische Hulpaktie Woord en Daad	stichting reformatorische hulpaktie woord en daad	NL-KVK-41118168	53	correct	True	NL-KVK-41118168
+random 100	Plan International Inc. (Zimbabwe Country Office)	plan international inc. (zimbabwe country office)	NO IDENTIFIER	2	wrong	False	
+random 100	Asociación de Organizaciones de Productores Ecológicos de Bolivia	asociación de organizaciones de productores ecológicos de bolivia	AOPEB	8	correct	True	AOPEB
+random 100	Puntland Water Development Agency	puntland water development agency	XM-DAC-41122-VN-241129	1	correct	True	XM-DAC-41122-VN-241129
+random 100	European Bank for Reconstruction and Development	european bank for reconstruction and development	XI-IATI-EBRD	22	correct	True	XI-IATI-EBRD
+random 100	Multilateral Investment Fund	multilateral investment fund	1013599	2	wrong	True	1013599
+random 100	NGO Forum for Public Health	ngo forum for public health	XM-DAC-41122-VN-235309	1	correct	True	XM-DAC-41122-VN-235309
+random 100	PACT Institute	pact institute	XM-DAC-21000	10	wrong	False	
+random 100	LVCT Health	lvct health	KE-NCB-218051200201502367	5	correct	True	KE-NCB-218051200201502367
+random 100	Mount Rwenzori Coffee Farmers Cooperative Union	mount rwenzori coffee farmers cooperative union	MRCFCU	4	correct	True	MRCFCU
+random 100	Vietnam National Farmers Union	vietnam national farmers union	VNFU	6	correct	True	VNFU
+random 100	Dien Phuoc Agri-Cooperative	dien phuoc agri-cooperative	DPC	1	correct	True	DPC
+random 100	Swedish Civil Defence and Resilience Agency	swedish civil defence and resilience agency	SE-ON-202100-5984	2	correct	True	SE-ON-202100-5984
+random 100	MannionDaniels	manniondaniels	GB-COH-04105827	2	correct	True	GB-COH-04105827
+random 100	Global Fund to Fight AIDS, Tuberculosis and Malaria, The	global fund to fight aids, tuberculosis and malaria, the	XM-DAC-47045	1	correct	True	XM-DAC-47045
+random 100	Institute of Tropical Medicine	institute of tropical medicine	BE-BCE_KBO-0410057701	12	correct	True	BE-BCE_KBO-0410057701
+random 100	Women's Refugee Commission	women's refugee commission	US-EIN-463668128	2	correct	True	US-EIN-463668128
+random 100	ISEAL	iseal	GB-COH-4625800	3	correct	True	GB-COH-4625800
+random 100	Wamo Relief and Rehabilitation Services	wamo relief and rehabilitation services	XM-DAC-41122-VN-213665	32	correct	True	XM-DAC-41122-VN-213665
+random 100	Rukiga Savings and Credit Scheme Cooperative Society Ltd.	rukiga savings and credit scheme cooperative society ltd.	RUKIGA SACCO	3	correct	True	RUKIGA SACCO
+random 100	Avocats sans Frontières	avocats sans frontières	BE-BCE_KBO-0447404580	2	correct	True	BE-BCE_KBO-0447404580
+random 100	Academy for Educational Development	academy for educational development	US-EIN-136110212	161	unsure	True	US-EIN-136110212
+random 100	Sungi Development Foundation (SDF)	sungi development foundation (sdf)	NOT REGISTERED	11	wrong	False	
+random 100	WWF Indonesia	wwf indonesia	ID-DJP-018321174017000	2	correct	True	ID-DJP-018321174017000
+random 100	Department of Works and Highways	department of works and highways	PG-COA-36910	465	wrong	True	PG-COA-36910
+random 100	International Union for the Conservation of Nature	international union for the conservation of nature	XM-DAC-30011	393	correct	True	XM-DAC-30011
+random 100	Centre for Policy Alternatives	centre for policy alternatives	126799	18	wrong	True	126799
+random 100	New Venture Fund	new venture fund	US-EIN-205806345	49	correct	True	US-EIN-205806345
+random 100	Curatio International Foundation	curatio international foundation	GE-NAPR-367	3	unsure	True	GE-NAPR-367
+random 100	Oxford Policy Management	oxford policy management	GB-COH-3122495	65	correct	True	GB-COH-3122495
+top 30 by rows	U.S. Government - U.S. Agency for International Development	u.s. government - u.s. agency for international development	US-GOV-1	19323	correct	True	US-GOV-1
+top 30 by rows	Chemonics International, Inc.	chemonics international, inc.	US-EIN-52-2145827	11457	correct	True	US-EIN-52-2145827
+top 30 by rows	FHI 360	fhi 360	US-EIN-237413005	11244	correct	True	US-EIN-237413005
+top 30 by rows	Correction	correction	NOT AVAILABLE	8611	wrong	False	
+top 30 by rows	United Nations Children's Fund	united nations children's fund	XM-DAC-41122	8484	correct	True	XM-DAC-41122
+top 30 by rows	World Food Program	world food program	XM-DAC-41140	7841	correct	True	XM-DAC-41140
+top 30 by rows	Abt Associates, Inc.	abt associates, inc.	US-EIN-042347643	7290	correct	True	US-EIN-042347643
+top 30 by rows	Save the Children Federation, Inc.	save the children federation, inc.	GB-CHC-1076822	7125	correct	True	GB-CHC-1076822
+top 30 by rows	International Organisation for Migration	international organisation for migration	XM-DAC-47066	6280	correct	True	XM-DAC-47066
+top 30 by rows	Catholic Relief Services	catholic relief services	US-EIN-13-5563422	5844	correct	True	US-EIN-13-5563422
+top 30 by rows	U.S. Government - Department of Agriculture	u.s. government - department of agriculture	US-GOV-2	4226	correct	True	US-GOV-2
+top 30 by rows	Mercy Corps	mercy corps	US-EIN-91-1148123	4087	correct	True	US-EIN-91-1148123
+top 30 by rows	World Vision	world vision	US-IRS-95-3202116	3830	correct	False	
+top 30 by rows	United Nations Development Programme	united nations development programme	XM-DAC-41114	3251	correct	True	XM-DAC-41114
+top 30 by rows	Johns Hopkins University	johns hopkins university	US-EIN-52-0595110	3121	correct	True	US-EIN-52-0595110
+top 30 by rows	U.S. Government - Department of State	u.s. government - department of state	US-GOV-11	3083	correct	True	US-GOV-11
+top 30 by rows	INTERNATIONAL NGO	international ngo	XM-DAC-21000	2938	correct	False	
+top 30 by rows	Cooperative for Assistance and Relief Everywhere	cooperative for assistance and relief everywhere	XM-DAC-41122-VN-218052	2885	correct	True	XM-DAC-41122-VN-218052
+top 30 by rows	Enterprise - Non United States Other	enterprise - non united states other	XM-DAC-63000	2500	unsure	False	
+top 30 by rows	International Rescue Committee	international rescue committee	US-EIN-13-5660870	2389	correct	True	US-EIN-13-5660870
+top 30 by rows	IntraHealth International	intrahealth international	US-EIN-550825466	2232	correct	True	US-EIN-550825466
+top 30 by rows	Pact World	pact world	US-EIN-13-2702768	2167	correct	True	US-EIN-13-2702768
+top 30 by rows	ICF International	icf international	GB-COH-04161656	1953	correct	True	GB-COH-04161656
+top 30 by rows	Food and Agriculture Organisation	food and agriculture organisation	XM-DAC-41301	1946	correct	True	XM-DAC-41301
+top 30 by rows	Global Communities	global communities	XM-DAC-21000	1823	wrong	False	TZ-NNCB-INGO-R1-00149
+top 30 by rows	International Medical Corps	international medical corps	GB-COH-02651349	1766	wrong	True	GB-COH-02651349
+top 30 by rows	PATH	path	US-EIN-91-1157127	1731	correct	True	US-EIN-91-1157127
+top 30 by rows	Pathfinder International	pathfinder international	US-EIN-53-0235320	1717	correct	True	US-EIN-53-0235320
+top 30 by rows	NETHERLANDS SPACE OFFICE	netherlands space office	XI-IATI-NSO	1568	correct	True	XI-IATI-NSO
+top 30 by rows	International Organization for Migration	international organization for migration	XM-DAC-47066	1501	correct	True	XM-DAC-47066

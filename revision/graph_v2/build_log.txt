@@ -1,0 +1,16 @@
+total rows: 10,890,453
+type-3 (disbursement) rows: 3,741,876
+after full-row dedup: 3,661,084 (Elaine: 2,583,194)
+secondary-reporter rows dropped (AidData et al.): 17,715
+typo aliases repaired (wrong prefix / ghost one-off): 79
+name->ref dictionary entries: 13,875
+ref-less receivers resolved by name dictionary: 269,090 rows (unmatched named rows stay dropped: 1,070,501)
+suffixed refs collapsed onto existing base refs: 10,632
+rows with both endpoints: 1,330,963 (provider imputed from reporting org on 665,665 of them)
+self-loop rows dropped: 279,898
+rows used for arcs: 1,051,065
+rows without FX rate (excluded from USD weight only): 207
+total net disbursement value: 1,030.38 B USD (negative-value rows: 85,125)
+n = 22,773 nodes
+m = 28,708 distinct arcs
+arcs with negative net USD value: 84
