@@ -32,7 +32,14 @@ cd "$TARGET"
 [ -d .git ] || git init -q -b main
 git remote get-url origin >/dev/null 2>&1 || git remote add origin git@github.com:boldip/AidGraph.git
 git add -A
-if git diff --cached --quiet; then echo "nothing to commit"; else
+if git diff --cached --quiet; then echo "nothing to commit"; elif git rev-parse -q --verify HEAD >/dev/null; then
+git commit -q -F - <<MSG
+Update from the working repository ($(date +%Y-%m-%d))
+
+Co-Authored-By: Claude Fable 5.1 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01SsXz62gM6Kakwy9X2ht1ZU
+MSG
+git log --oneline -1; else
 git commit -q -F - <<'MSG'
 Analysis code for "The Hidden Geometry of Global Aid" (second-round revision)
 
