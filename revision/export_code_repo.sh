@@ -17,7 +17,7 @@ cd "$REPO"
   | grep -vE '(^|/)(paper|site|audit_page|logs_A|__pycache__|store)/' \
   | grep -vE '\.(pyc|log|bak|pdf)$' \
   | grep -vE '(^|/)(reviews\.txt|mail[0-9]*\.txt|paul-[0-9A-Za-z]*\.txt|NOTE-FOR-COAUTHORS\.md)$' \
-  | grep -vE '^revision/(NOTE-FOR-COAUTHORS\.md|AidGraph-README\.md|AidGraph-LICENSE|r5_patch_paper\.py|r10[bc]?_patch_[a-z0-9]+\.py|run_A_rest\.sh)$' \
+  | grep -vE '^revision/(NOTE-FOR-COAUTHORS\.md|AidGraph-README\.md|AidGraph-LICENSE|AidGraph-zenodo\.json|r5_patch_paper\.py|r10[bc]?_patch_[a-z0-9]+\.py|run_A_rest\.sh)$' \
   | grep -vE '^pipeline/(report\.tex|mail4\.pdf|DONE_A|FAILED_A|run_A_resume[0-9]*\.sh|Aid_Graph.*\.pdf)$' \
   > "$TARGET/.export-list"
 while read -r f; do [ -e "$f" ] || { echo "missing $f" >&2; exit 1; }; done < "$TARGET/.export-list"
@@ -29,10 +29,11 @@ fi
 rsync -a --delete --files-from="$TARGET/.export-list" --exclude=.git "$REPO/" "$TARGET/"
 cp "$HERE/AidGraph-README.md" "$TARGET/README.md"
 cp "$HERE/AidGraph-LICENSE" "$TARGET/LICENSE"
+cp "$HERE/AidGraph-zenodo.json" "$TARGET/.zenodo.json"
 cp "$REPO/pipeline/.gitignore" "$TARGET/pipeline/.gitignore" 2>/dev/null || true
 rm -f "$TARGET/.export-list"
 # drop anything at the top level that is not part of the export (e.g. folders renamed since the last export)
-for d in "$TARGET"/* "$TARGET"/.[!.]*; do case "$(basename "$d")" in pipeline|revision|README.md|LICENSE|.git) ;; *) rm -rf "$d";; esac; done
+for d in "$TARGET"/* "$TARGET"/.[!.]*; do case "$(basename "$d")" in pipeline|revision|README.md|LICENSE|.zenodo.json|.git) ;; *) rm -rf "$d";; esac; done
 echo "exported $(find "$TARGET" -type f -not -path '*/.git/*' | wc -l) files to $TARGET"
 
 cd "$TARGET"

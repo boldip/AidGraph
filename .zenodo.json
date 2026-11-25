@@ -1,0 +1,14 @@
+{
+  "title": "AidGraph: analysis code for \"The Hidden Geometry of Global Aid: How Money Moves Through 10 Million Transactions\"",
+  "upload_type": "software",
+  "license": "Apache-2.0",
+  "creators": [
+    {"name": "McCarthy, Paul X."},
+    {"name": "Gong, Xian"},
+    {"name": "Rizoiu, Marian-Andrei"},
+    {"name": "Boldi, Paolo"}
+  ],
+  "description": "<p>Python pipeline that builds the IATI aid-transaction network, computes its distances, null models, funder-removal (percolation) experiment, PCA and cross-network comparison, together with the robustness analyses of the second-round revision for Scientific Reports. The input is the IATI Datastore transaction extract described in pipeline/DATA_EXTRACTION.md, deposited separately on Zenodo.</p>",
+  "keywords": ["international aid", "IATI", "network science", "complex networks", "development finance"],
+  "access_right": "open"
+}
