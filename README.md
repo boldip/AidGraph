@@ -1,5 +1,7 @@
 # AidGraph: code for "The Hidden Geometry of Global Aid"
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24527392.svg)](https://doi.org/10.5281/zenodo.24527392)
+
 Analysis code and derived files for *The Hidden Geometry of Global Aid: How Money Moves
 Through 10 Million Transactions* (McCarthy, Gong, Rizoiu, Boldi; Scientific Reports,
 under revision). Everything in the paper (network construction, distances, null models,
@@ -24,10 +26,16 @@ by the scripts in this repository from the IATI transaction extract described be
 ## Data
 
 The IATI extract (`pipeline/Data`, a 765 MB parquet file, 10,890,453 rows) is not
-in the repository; it is deposited on Zenodo together with this code (DOI to be inserted).
+in the repository; it is deposited on Zenodo as a separate record (DOI to be inserted).
 The comparison datasets (BIS, Correlates of War, OpenFlights, UNHCR, KNOMAD) are public;
 sources and snapshots are listed in Extended Data Table 1 of the paper and in
 `pipeline/README.md`.
+
+## Archived version
+
+The version used for the article is release v1.0.1, archived on Zenodo with DOI
+[10.5281/zenodo.24527392](https://doi.org/10.5281/zenodo.24527392) (concept DOI for all
+versions: [10.5281/zenodo.24527391](https://doi.org/10.5281/zenodo.24527391)).
 
 ## Environment
 
