@@ -1,8 +1,6 @@
-<!-- Received from Elaine (Xian Gong) on 24 Nov 2026; describes how pipeline/Data (IATI_All_Transactions.parquet, 10,890,453 rows, 25 fields) was extracted from the IATI Datastore. -->
-
 # IATI transaction extract
 
-`IATI_All_Transactions_v2.parquet` contains 10,890,453 transaction records and 25 fields from the International Aid Transparency Initiative (IATI) Datastore. The extraction notebook specifies a transaction value-date window of 1 January 1967 through 31 December 2025, inclusive. 
+`IATI_All_Transactions.parquet` contains 10,890,453 transaction records and 25 fields from the International Aid Transparency Initiative (IATI) Datastore. The extraction notebook specifies a transaction value-date window of 1 January 1967 through 31 December 2025, inclusive. 
 
 ## Query and filters
 
@@ -49,5 +47,3 @@ participating_org_type
 ## From API results to Parquet
 
 We requested up to 1,000 records per page, increasing `start` by the number of records returned until the API returned an empty page. We wrote the results to annual UTF-8 CSV files. The notebook records 58 input files, which we concatenated using pandas. We converted `reporting_org_type` to a string and wrote the combined table to Parquet with `index=False`.
-
-The notebook subsequently created a separate analysis subset by requiring a non-missing receiver organisation narrative, removing duplicate rows and retaining disbursements (transaction type code 3). These steps occurred after the Parquet export.
