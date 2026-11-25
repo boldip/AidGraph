@@ -3,7 +3,9 @@
 name_check_audit.tsv, with verdict buttons. Verdicts are stored in the
 artifact's db (collection 'verdicts', doc p<idx>) when published as a
 claude.ai artifact; otherwise in localStorage."""
-import json, html, pandas as pd, numpy as np
+import json, html, os, pandas as pd, numpy as np
+
+os.makedirs("audit_page", exist_ok=True)
 d = pd.read_csv("name_check_audit.tsv", sep="\t")
 def s(v): return "" if (v is None or (isinstance(v, float) and np.isnan(v))) else str(v)
 rows = []

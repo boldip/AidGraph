@@ -2,11 +2,13 @@
 """Regenerate the two \\input tables of the paper in the submitted (Paul's) layout:
 paper/h1_top50.tex from pipeline/h1_ranking.tsv + funder_scale.tsv (same filter as
 10_h1_report.py) and paper/h2_loadings.tex from pipeline/h2_loadings.tex."""
-import re
+import os, re
 import pandas as pd
 
 SS = "../pipeline/"
 from paper_names import NAMES, CBPF, display  # noqa: F401
+
+os.makedirs("paper", exist_ok=True)
 
 
 def num(x, nd=2):

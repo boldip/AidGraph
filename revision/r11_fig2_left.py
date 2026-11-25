@@ -4,7 +4,7 @@ version was a PDF crop of that panel).  Redraw it alone from percolation.tsv.
 
 Usage: python3 r11_fig2_left.py [percolation.tsv] [out.png]
 """
-import sys
+import os, sys
 import numpy as np
 import pandas as pd
 import matplotlib
@@ -39,5 +39,6 @@ ax.grid(alpha=0.25)
 ax.set_ylabel("share")
 ax.legend(fontsize=8, frameon=False)
 fig.tight_layout()
+os.makedirs(os.path.dirname(out) or ".", exist_ok=True)
 fig.savefig(out, dpi=200)
 print("wrote", out)

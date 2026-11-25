@@ -9,7 +9,7 @@ Writes
   ggfree_distances_undirected.tsv                       undirected hop distribution, with and without GlobalGiving
   r4_numbers.md                                         numbers quoted in the revised text
 """
-import shutil
+import os, shutil
 import numpy as np
 import pandas as pd
 import matplotlib
@@ -21,6 +21,8 @@ from scipy.sparse.csgraph import shortest_path
 
 from common import load, node_id, display_names, BASE
 from paper_names import display
+
+os.makedirs("paper/Figures", exist_ok=True)
 
 GG = "US-EIN-300108263"
 arcs, nodes, h1, fs = load()
