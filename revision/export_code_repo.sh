@@ -21,6 +21,11 @@ cd "$REPO"
   | grep -vE '^pipeline/(report\.tex|mail4\.pdf|DONE_A|FAILED_A|run_A_resume[0-9]*\.sh|Aid_Graph.*\.pdf)$' \
   > "$TARGET/.export-list"
 while read -r f; do [ -e "$f" ] || { echo "missing $f" >&2; exit 1; }; done < "$TARGET/.export-list"
+# Collaborators may have pushed to the public repository: bring the clone up to date first,
+# and stop if that is not a fast-forward (resolve by hand, then rerun).
+if [ -d "$TARGET/.git" ] && git -C "$TARGET" remote get-url origin >/dev/null 2>&1; then
+  git -C "$TARGET" pull -q --ff-only origin main || { echo "cannot fast-forward $TARGET to origin/main" >&2; exit 1; }
+fi
 rsync -a --delete --files-from="$TARGET/.export-list" --exclude=.git "$REPO/" "$TARGET/"
 cp "$HERE/AidGraph-README.md" "$TARGET/README.md"
 cp "$HERE/AidGraph-LICENSE" "$TARGET/LICENSE"
