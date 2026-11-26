@@ -26,7 +26,7 @@ by the scripts in this repository from the IATI transaction extract described be
 ## Data
 
 The IATI extract (`pipeline/Data`, a 765 MB parquet file, 10,890,453 rows) is not
-in the repository; it is deposited on Zenodo as a separate record (DOI to be inserted).
+in the repository; it is deposited on Zenodo as a separate record (DOI [10.5281/zenodo.24543614](https://doi.org/10.5281/zenodo.24543614)).
 The comparison datasets (BIS, Correlates of War, OpenFlights, UNHCR, KNOMAD) are public;
 sources and snapshots are listed in Extended Data Table 1 of the paper and in
 `pipeline/README.md`.

@@ -143,6 +143,11 @@ fig.savefig("paper/Figures/fig_h1_z_scatter_v2.png", dpi=150)
 plt.close(fig)
 
 # ---------------------------------------------------------------- Table 2 without GlobalGiving
+def zfmt(z):
+    """z-score for a table cell; negative values in math mode, as in Table 2."""
+    return f"${z:.2f}$" if z < 0 else f"{z:.2f}"
+
+
 def tex(s):
     return str(s).replace("&", "\\&").replace("%", "\\%").replace("_", "\\_")
 
@@ -153,7 +158,7 @@ rows = ["\\begin{tabular}{rlrrrrr}", "\\toprule",
         "\\# & funder & out-deg & USD (M) & $h$ & $z$ & rank in full network\\\\", "\\midrule"]
 for rr in top.itertuples():
     nm = rr.name if isinstance(rr.name, str) else rr.ref
-    rows.append(f"{rr.rank_z} & {display(nm, rr.ref)} & {int(rr.out_degree)} & {rr.usd / 1e6:,.1f} & {rr.h:,.0f} & {rr.z:.2f} & {old_rank.get(rr.ref, '--')}\\\\")
+    rows.append(f"{rr.rank_z} & {display(nm, rr.ref)} & {int(rr.out_degree):,} & {rr.usd / 1e6:,.1f} & {rr.h:,.0f} & {zfmt(rr.z)} & {old_rank.get(rr.ref, '--')}\\\\")
 rows += ["\\midrule"]
 full = pd.read_csv("ggfree_h1_ranking.tsv", sep="\t")
 full = full.merge(g[["ref", "usd"]], on="ref", how="inner")
@@ -162,9 +167,9 @@ full["rank_z"] = np.arange(1, len(full) + 1)
 assert len(full) > 200, len(full)  # 284 on the submitted graph, 281 on the rebuilt one
 for ref in ["US-GOV-1"]:
     rr = full[full.ref == ref].iloc[0]
-    rows.append(f"{int(rr.rank_z)} & {display(rr['name'], ref)} & {int(rr.out_degree)} & {rr.usd / 1e6:,.1f} & {rr.h:,.0f} & {rr.z:.2f} & {old_rank.get(ref, '--')}\\\\")
+    rows.append(f"{int(rr.rank_z)} & {display(rr['name'], ref)} & {int(rr.out_degree):,} & {rr.usd / 1e6:,.1f} & {rr.h:,.0f} & {zfmt(rr.z)} & {old_rank.get(ref, '--')}\\\\")
 rr = full.iloc[-1]
-rows.append(f"{int(rr.rank_z)} & {display(rr['name'], rr.ref)} & {int(rr.out_degree)} & {rr.usd / 1e6:,.1f} & {rr.h:,.0f} & {rr.z:.2f} & {old_rank.get(rr.ref, '--')}\\\\")
+rows.append(f"{int(rr.rank_z)} & {display(rr['name'], rr.ref)} & {int(rr.out_degree):,} & {rr.usd / 1e6:,.1f} & {rr.h:,.0f} & {zfmt(rr.z)} & {old_rank.get(rr.ref, '--')}\\\\")
 rows += ["\\bottomrule", "\\end{tabular}"]
 open("paper/h1_top50_ggfree.tex", "w").write("\n".join(rows) + "\n")
 out.append(f"- GG-free lowest-scoring funder: {rr['name']} z {rr.z:.2f} (rank {int(rr.rank_z)} of {len(full)})")

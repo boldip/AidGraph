@@ -44,8 +44,8 @@ if git diff --cached --quiet; then echo "nothing to commit"; elif git rev-parse 
 git commit -q -F - <<MSG
 Update from the working repository ($(date +%Y-%m-%d))
 
-Co-Authored-By: Claude Fable 5.1 <noreply@anthropic.com>
-Claude-Session: https://claude.ai/code/session_01SsXz62gM6Kakwy9X2ht1ZU
+Co-Authored-By: Claude Fable 5.2 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01SsXz62ixbbLNS3wWZUzp4P
 MSG
 git log --oneline -1; else
 git commit -q -F - <<'MSG'
@@ -55,8 +55,8 @@ Single-commit export of the two code folders of the working repository:
 the main pipeline (pipeline/) and the revision analyses
 (revision/), with derived outputs and documentation.
 
-Co-Authored-By: Claude Fable 5.1 <noreply@anthropic.com>
-Claude-Session: https://claude.ai/code/session_01SsXz62gM6Kakwy9X2ht1ZU
+Co-Authored-By: Claude Fable 5.2 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01SsXz62ixbbLNS3wWZUzp4P
 MSG
 git log --oneline -1; fi
 if [ "$PUSH" = "--push" ]; then git push -u origin main; fi
